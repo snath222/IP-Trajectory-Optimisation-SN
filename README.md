@@ -13,12 +13,12 @@ This repository explores and implements three trajectory optimisation strategies
 - **Genetic Algorithm**  
   Implements evolutionary search with elitism and tournament selection. Suitable for large, high-dimensional solution spaces where brute force becomes inefficient.
 
-## Features
+## Install Packages
 
-- Visual comparison of trajectories optimised using each method  
-- Contour plots of delta-v landscapes across multiple constraints  
-- Generational analysis of genetic algorithm performance  
-- Designed for multi-body flyby trajectories with adjustable constraint configurations
+To install the required packages, run the following command:
+
+```bash
+pip install -r requirements.txt
 
 ---
 
