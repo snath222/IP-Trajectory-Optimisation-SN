@@ -19,7 +19,7 @@ To install the required packages, run the following command:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 Developed by Shubham Nath as part of an individual project on interplanetary trajectory optimisation.
