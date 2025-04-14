@@ -1,17 +1,18 @@
 # Trajectory Optimisation for Voyager I & II Missions
 
-This repository explores and implements three trajectory optimisation strategies for the Voyager I and II interplanetary missions using the Patched Conics approximation.
+This repository explores and implements three trajectory optimisation strategies for the Voyager I and II interplanetary missions using the procedure to minimise $\Delta V$ developed in my Individual Project.
 
 ## Algorithms Implemented
 
-- **Brute Force Grid Search**  
-  Provides a comprehensive visual sweep of the problem space across fixed mission constraints (e.g., fixed departure or flyby dates).
+- **Brute Force Search**  
+  Provides a comprehensive brute force approach of the problem space across fixed mission constraints.
 
-- **Local Optimisation (`scipy.optimize.fmin`)**  
-  Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards local minima of delta-v.
+- **Nelder-Mead Simplex Algorithm (`scipy.optimize.fmin`)**  
+  Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards local minima of delta-V.
 
 - **Genetic Algorithm**  
-  Implements evolutionary search with elitism and tournament selection. Suitable for large, high-dimensional solution spaces where brute force becomes inefficient.
+  Implements a metaheuristic optimisation method based on the principles of
+natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising delta-V.
 
 ## Install Packages
 
