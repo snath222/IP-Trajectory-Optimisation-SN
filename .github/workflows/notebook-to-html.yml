@@ -25,7 +25,7 @@ jobs:
 
     - name: Convert notebooks to HTML
       run: |
-        jupyter nbconvert --to html Notebooks/*.ipynb
+        jupyter nbconvert --to html *.ipynb
 
     - name: Commit HTML files
       run: |
