@@ -14,7 +14,9 @@ This repository explores and implements three trajectory optimisation methods fo
   Implements a metaheuristic optimisation method based on the principles of
 natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
 
-## Install Packages
+## Python Version & Install Packages
+
+The supported Python version is between Python 3.8 and Python 3.10. The code was written in Python 3.9.
 
 To install the required packages, run the following command:
 
