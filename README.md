@@ -27,16 +27,15 @@ natural selection, employing both parallel and global search techniques – gene
 1. Install Pixi if you haven't already:
    ```bash
    curl -fsSL https://pixi.sh/install.sh | bash  # For macOS/Linux
-   ```
-   or,
-   ```bash
    iwr -useb https://pixi.sh/install.ps1 | iex   # For Windows
    ```
 
 3. Clone the repository and navigate to the project directory:
    ```bash
-   git clone (URL - TBC)
-   cd YOUR_PATH/IP-Trajectory-Optimisation-SN
+   git clone https://github.com/snath222/IP-Trajectory-Optimisation-SN.git
+   ```
+    ```bash
+   cd ~/IP-Trajectory-Optimisation-SN
    ```
    
 4. Run the Jupyter notebooks:
@@ -56,6 +55,7 @@ If you prefer not to use Pixi, you can install dependencies with pip:
 ```bash
 pip install -r requirements.txt
 jupyter lab "Voyager I - Optimisation Algo.ipynb"
+jupyter lab "Voyager II - Optimisation Algo.ipynb"
 ```
 
 The development environment used the following package versions:
