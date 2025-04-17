@@ -16,6 +16,10 @@ natural selection, employing both parallel and global search techniques – gene
 
 ## How to run code?
 
+**Note:** For LaTeX rendering in plots, you will need a TeX distribution installed:
+- Windows: [MiKTeX](https://miktex.org/download)
+- macOS: [MacTeX](https://tug.org/mactex/)
+
 ### Using Pixi (Recommended)
 [Pixi](https://pixi.sh) provides a reproducible environment with exact package versions.
 
@@ -68,10 +72,5 @@ Platform: macOS-15.3.2-arm64-arm-64bit
 - seaborn: 0.13.2
 - IPython: 8.15.0
 ```
-
-**Note:** For LaTeX rendering in plots, you will need a TeX distribution installed:
-- Windows: [MiKTeX](https://miktex.org/download)
-- macOS: [MacTeX](https://tug.org/mactex/)
-
 
 Developed by Shubham Nath as part of an individual project on interplanetary trajectory optimisation.
