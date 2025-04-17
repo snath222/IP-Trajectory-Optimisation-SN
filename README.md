@@ -79,4 +79,4 @@ Platform: macOS-15.3.2-arm64-arm-64bit
 ```
 ---
 
-Developed by Shubham Nath (Supervised by [Hans Fangohr](https://github.com/fangohr)) as part of an Individual Project (IP) on interplanetary trajectory optimisation.
+Developed by Shubham Nath (under the supervision of [Hans Fangohr](https://github.com/fangohr)) as part of my Individual Project (IP) on interplanetary trajectory optimisation.
