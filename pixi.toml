@@ -15,7 +15,7 @@ cmd = 'pixi run jupyter-lab "Voyager I - Optimisation Algo.ipynb"'
 cmd = 'pixi run jupyter-nbconvert --to html --execute "Voyager I - Optimisation Algo.ipynb"'
 
 [dependencies]
-python = "3.9.18"
+python = "==3.9.18"
 
 [pypi-dependencies]
 numpy = "==1.26.4"
