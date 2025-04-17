@@ -14,14 +14,15 @@ This repository explores and implements three trajectory optimisation methods fo
   Implements a metaheuristic optimisation method based on the principles of
 natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
 
-## How to run code?
+## How to Run the Code
 
-**Note:** For LaTeX rendering in plots, you will need a TeX distribution installed:
+**Prerequisites:** For LaTeX rendering in plots, you will need a TeX distribution installed:
 - Windows: [MiKTeX](https://miktex.org/download)
 - macOS: [MacTeX](https://tug.org/mactex/)
 
 ### Using Pixi (Recommended)
-[Pixi](https://pixi.sh) provides a reproducible environment with exact package versions.
+
+[Pixi](https://pixi.sh) provides a reproducible environment with exact package versions, ensuring consistent results across different systems.
 
 1. Install Pixi if you haven't already:
    ```bash
@@ -35,15 +36,17 @@ natural selection, employing both parallel and global search techniques – gene
    git clone (URL - TBC)
    cd YOUR_PATH/IP-Trajectory-Optimisation-SN
    ```
-
-3. Run the Voyager I analysis:
+   
+3. Run the Jupyter notebooks:
+   
+   a) For Voyager I analysis:
    ```bash
    pixi run voyager1
    ```
-
-   Or generate an HTML report without the interactive interface:
+   
+   b) For Voyager II analysis:
    ```bash
-   pixi run voyager1-auto
+   pixi run voyager2
    ```
 
 ### Alternative: Using pip
@@ -72,5 +75,6 @@ Platform: macOS-15.3.2-arm64-arm-64bit
 - seaborn: 0.13.2
 - IPython: 8.15.0
 ```
+---
 
-Developed by Shubham Nath as part of an individual project on interplanetary trajectory optimisation.
+Developed by Shubham Nath (Supervised by [Hans Fangohr](https://github.com/fangohr)) as part of an individual project on interplanetary trajectory optimisation.
