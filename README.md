@@ -27,17 +27,19 @@ natural selection, employing both parallel and global search techniques – gene
 1. Install Pixi if you haven't already:
    ```bash
    curl -fsSL https://pixi.sh/install.sh | bash  # For macOS/Linux
-   # or
+   ```
+   or,
+   ```bash
    iwr -useb https://pixi.sh/install.ps1 | iex   # For Windows
    ```
 
-2. Clone the repository and navigate to the project directory:
+3. Clone the repository and navigate to the project directory:
    ```bash
    git clone (URL - TBC)
    cd YOUR_PATH/IP-Trajectory-Optimisation-SN
    ```
    
-3. Run the Jupyter notebooks:
+4. Run the Jupyter notebooks:
    
    a) For Voyager I analysis:
    ```bash
