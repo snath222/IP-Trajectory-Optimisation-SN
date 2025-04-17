@@ -1,0 +1,33 @@
+[workspace]
+authors = ["Shub Nath, Hans Fangohr>"]
+channels = ["conda-forge"]
+name = "IP-Trajectory-Optimisation-SN"
+platforms = ["osx-64", "win-64", "linux-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[tasks.voyager1]
+# start notebook server in pixi environment
+cmd = 'pixi run jupyter-lab Voyager\ I\ -\ Optimisation\ Algo.ipynb'
+
+[tasks.voyager1-auto]
+# this will execute the notebook from the command line
+cmd = 'pixi run jupyter-nbconvert --to html --execute Voyager\ I\ -\ Optimisation\ Algo.ipynb'
+
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+pandas = ">=2.2.3, <3"
+tqdm = ">=4.67.1, <5"
+poliastro = ">=0.7.0, <0.8"
+seaborn = ">=0.13.2, <0.14"
+jupyter = ">=1.1.1, <2"
+pytest = ">=8.3.5, <9"
+nbval = ">=0.11.0, <0.12"
+numpy = ">=2.0.2, <3"
+matplotlib = ">=3.9.4, <4"
+scipy = ">=1.13.1, <2"
+ipython = ">=8.18.1, <9"
