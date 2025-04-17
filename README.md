@@ -16,7 +16,7 @@ natural selection, employing both parallel and global search techniques – gene
 
 ## How to Run the Code
 
-**Prerequisites:** For LaTeX rendering in plots, you will need a TeX distribution installed:
+**Prerequisites:** For LaTeX rendering in plots, you will need either one of these TeX distributions installed:
 - Windows/macOS/Linux: [MiKTeX](https://miktex.org/download)
 - macOS: [MacTeX](https://tug.org/mactex/)
 
