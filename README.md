@@ -14,6 +14,8 @@ This repository explores and implements three trajectory optimisation methods fo
   Implements a metaheuristic optimisation method based on the principles of
 natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
 
+**Note:** Jupyter notebooks for both Voyager I and II missions are available in `.html` format for convenient viewing without executing the code.
+
 ## How to Run the Code
 
 **Prerequisites:** For LaTeX rendering in plots, you will need either one of these TeX distributions installed:
