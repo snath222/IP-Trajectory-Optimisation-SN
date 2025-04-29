@@ -11,10 +11,12 @@ This repository explores and implements three trajectory optimisation methods fo
   Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards the minima of $\Delta V$.
 
 - **Genetic Algorithm**  
-  Implements a metaheuristic optimisation method based on the principles of
-natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
+  Implements a metaheuristic optimisation method based on the principles of natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
 
-**Note:** Jupyter notebooks for both Voyager I and II missions are available in `.html` format for convenient viewing without executing the code.
+- **Hybrid Genetic Algorithm**  
+  Combines the global search capabilities of the Genetic Algorithm with the local refinement precision of the Nelder-Mead Simplex Algorithm, providing a robust approach that leverages the strengths of both methods to efficiently locate and refine the global optimum $\Delta V$.
+
+> **Note:** Jupyter notebooks for both Voyager I and II missions are available in `.html` format for convenient viewing without executing the code.
 
 ## How to Run the Code
 
