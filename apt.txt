@@ -1,0 +1,6 @@
+texlive-xetex
+texlive-fonts-recommended
+texlive-plain-generic
+texlive-latex-extra
+dvipng
+cm-super
