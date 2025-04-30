@@ -1,6 +1,6 @@
 # Trajectory Optimisation for Voyager I & II Missions
 
-This repository explores and implements three trajectory optimisation methods for Voyager I and II interplanetary missions (minimise $\Delta V$) using the procedure developed in my Individual Project.
+This repository explores and implements four trajectory optimisation methods for Voyager I and II interplanetary missions (minimise $\Delta V$) using the procedure developed in my Individual Project.
 
 ## Algorithms Implemented
 
@@ -91,6 +91,14 @@ Platform: macOS-15.3.2-arm64-arm-64bit
 - seaborn: 0.13.2
 - IPython: 8.15.0
 ```
+## License \& Additional Information
+
+This repository uses the [MIT](https://github.com/snath222/IP-Trajectory-Optimisation-SN/blob/32550e88cd8426dbb31d62e780e0c84489deedf5/LICENSE) license.
+
+The code was formatted using [Black](https://black.readthedocs.io/en/stable/) (The uncompromising Python code formatter).
+
+
+
 ---
 
 Developed by Shubham Nath (under the supervision of [Hans Fangohr](https://github.com/fangohr)) as part of my Individual Project (IP) on interplanetary trajectory optimisation.
