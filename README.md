@@ -24,7 +24,13 @@ This repository explores and implements three trajectory optimisation methods fo
 - Windows/macOS/Linux: [MiKTeX](https://miktex.org/download)
 - macOS: [MacTeX](https://tug.org/mactex/)
 
-### Using Pixi (Recommended)
+### Using Binder
+
+Click the following Binder button to run the notebooks in your browser without any local installation:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/snath222/IP-Trajectory-Optimisation-SN/HEAD)
+
+### Using Pixi
 
 [Pixi](https://pixi.sh) provides a reproducible environment with exact package versions, ensuring consistent results across different systems.
 
