@@ -20,17 +20,21 @@ This repository explores and implements three trajectory optimisation methods fo
 
 ## How to Run the Code
 
-**Prerequisites:** For LaTeX rendering in plots, you will need either one of these TeX distributions installed:
-- Windows/macOS/Linux: [MiKTeX](https://miktex.org/download)
-- macOS: [MacTeX](https://tug.org/mactex/)
-
 ### Using Binder
 
 Click the following Binder button to run the notebooks in your browser without any local installation:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/snath222/IP-Trajectory-Optimisation-SN/HEAD)
 
+> **Note:** Takes around 3-4 minutes to load into the Jupyter environment.
+
+(Last updated: 30th April 2025)
+
 ### Using Pixi
+
+**Prerequisites:** For LaTeX rendering in plots, you will need either one of these TeX distributions installed:
+- Windows/macOS/Linux: [MiKTeX](https://miktex.org/download)
+- macOS: [MacTeX](https://tug.org/mactex/)
 
 [Pixi](https://pixi.sh) provides a reproducible environment with exact package versions, ensuring consistent results across different systems.
 
