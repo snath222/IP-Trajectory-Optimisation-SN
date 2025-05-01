@@ -1,32 +1,56 @@
 # Trajectory Optimisation for Voyager I & II Missions
 
-This repository explores and implements four trajectory optimisation methods for Voyager I and II interplanetary missions (minimise $\Delta V$) using the procedure developed in my Individual Project.
+This repository explores and implements four trajectory optimisation methods for Voyager I and II interplanetary missions (minimise $\Delta V_\mathrm{mission}$) using the procedure developed in my Individual Project.
 
 ## Algorithms Implemented
 
 - **Brute Force Search**  
-  Provides a comprehensive brute force approach of the problem space across fixed mission constraints.
+  Provides a comprehensive brute force approach to a set discretisation, exploring the problem space to minimise $\Delta V_\mathrm{mission}$.
 
 - **Nelder-Mead Simplex Algorithm (`scipy.optimize.fmin`)**  
-  Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards the minima of $\Delta V$.
+  Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards the minima of $\Delta V_\mathrm{mission}$.
 
 - **Genetic Algorithm**  
-  Implements a metaheuristic optimisation method based on the principles of natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V$.
+  Implements a metaheuristic optimisation method based on the principles of natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V_\mathrm{mission}$.
 
 - **Hybrid Genetic Algorithm**  
-  Combines the global search capabilities of the Genetic Algorithm with the local refinement precision of the Nelder-Mead Simplex Algorithm, providing a robust approach that leverages the strengths of both methods to efficiently locate and refine the global optimum $\Delta V$.
+  Combines the global search capabilities of the Genetic Algorithm with the local refinement precision of the Nelder-Mead Simplex Algorithm, providing a robust approach that leverages the strengths of both methods to efficiently locate and refine the global optimum $\Delta V_\mathrm{mission}$.
+
+### Results Preview
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github.com/snath222/IP-Trajectory-Optimisation-SN/blob/82f66a08e21d56596c95d5ec8e7950dc50068e4b/Voyager%201%20-%20Figures/voyager_I_trajectory_km_AU.png" alt="Voyager I Trajectory" width="100%"/>
+        <br>
+        <b>Fig 1: Voyager I Optimised Trajectory Comparison</b>
+        <br>
+        <em>Earth → Jupiter → Saturn</em>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://github.com/snath222/IP-Trajectory-Optimisation-SN/blob/82f66a08e21d56596c95d5ec8e7950dc50068e4b/Voyager%202%20-%20Figures/voyager_II_trajectory_km_AU.png" alt="Voyager II Trajectory" width="100%"/>
+        <br>
+        <b>Fig 2: Voyager II Optimised Trajectory Comparison</b>
+        <br>
+        <em>Earth → Jupiter → Saturn → Uranus → Neptune</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 > **Note:** Jupyter notebooks for both Voyager I and II missions are available in `.html` format for convenient viewing without executing the code.
 
 ## How to Run the Code
 
-### Using Binder
+### Using Binder (Recommended)
 
 Click the following Binder button to run the notebooks in your browser without any local installation:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/snath222/IP-Trajectory-Optimisation-SN/HEAD)
 
-> **Note:** Takes around 3-4 minutes to load into the Jupyter environment.
+> **Note:** Takes around 5-10 minutes to load into the Jupyter environment.
 
 (Last updated: 30th April 2025)
 
@@ -91,13 +115,13 @@ Platform: macOS-15.3.2-arm64-arm-64bit
 - seaborn: 0.13.2
 - IPython: 8.15.0
 ```
-## License \& Additional Information
+## License \& Acknowledgements
 
 This repository uses the [MIT](https://github.com/snath222/IP-Trajectory-Optimisation-SN/blob/32550e88cd8426dbb31d62e780e0c84489deedf5/LICENSE) license.
 
 The code was formatted using [Black](https://black.readthedocs.io/en/stable/) (The uncompromising Python code formatter).
 
-
+The [Poliastro](https://docs.poliastro.space/en/stable/) library was extensively used, allowing for seamless illustration of orbital trajectories.
 
 ---
 
