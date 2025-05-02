@@ -44,7 +44,7 @@ This repository explores and implements four trajectory optimisation methods for
 
 ## How to Run the Code
 
-### Using Binder (Recommended)
+### Using Binder (Cloud)
 
 Click the following Binder button to run the notebooks in your browser without any local installation:
 
@@ -52,9 +52,9 @@ Click the following Binder button to run the notebooks in your browser without a
 
 > **Note:** Takes around 5-10 minutes to load into the Jupyter environment.
 
-(Last updated: 30th April 2025)
+(Last updated: 2nd May 2025)
 
-### Using Pixi
+### Using Pixi (Local)
 
 **Prerequisites:** For LaTeX rendering in plots, you will need either one of these TeX distributions installed:
 - Windows/macOS/Linux: [MiKTeX](https://miktex.org/download)
