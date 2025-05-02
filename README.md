@@ -1,17 +1,17 @@
 # Trajectory Optimisation for Voyager I & II Missions
 
-This repository explores and implements four trajectory optimisation methods for Voyager I and II interplanetary missions (minimise $\Delta V_\mathrm{mission}$) using the procedure developed in my Individual Project.
+This repository explores and implements four trajectory optimisation methods for Voyager I \& II interplanetary missions (minimise $\Delta V_\mathrm{mission}$) using the procedure developed in my Individual Project.
 
 ## Algorithms Implemented
 
 - **Brute Force Search**  
-  Provides a comprehensive brute force approach to a set discretisation, exploring the problem space to minimise $\Delta V_\mathrm{mission}$.
+  Implements a brute force approach to a set discretisation, exploring the problem space to minimise $\Delta V_\mathrm{mission}$.
 
 - **Nelder-Mead Simplex Algorithm (`scipy.optimize.fmin`)**  
-  Utilises the Nelder-Mead Simplex Algorithm to refine initial solutions and converge towards the minima of $\Delta V_\mathrm{mission}$.
+  Utilises the Nelder-Mead Simplex Algorithm, where the initial guess is set to be the historical mission epochs, to minimise $\Delta V_\mathrm{mission}$.
 
 - **Genetic Algorithm**  
-  Implements a metaheuristic optimisation method based on the principles of natural selection, employing both parallel and global search techniques – generating a global optimal solution, minimising $\Delta V_\mathrm{mission}$.
+  Implements a metaheuristic optimisation method based on the principles of natural selection, employing both parallel and global search techniques – generating an optimal individual solution (of $\Delta V_\mathrm{mission}$).
 
 - **Hybrid Genetic Algorithm**  
   Combines the global search capabilities of the Genetic Algorithm with the local refinement precision of the Nelder-Mead Simplex Algorithm, providing a robust approach that leverages the strengths of both methods to efficiently locate and refine the global optimum $\Delta V_\mathrm{mission}$.
